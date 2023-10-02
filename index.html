@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Authentication</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login Authentication</h1>
+        <div class="form" id="registerForm">
+            <h2>Register</h2>
+            <input type="text" id="regUsername" placeholder="Username">
+            <input type="password" id="regPassword" placeholder="Password">
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="form" id="loginForm">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+        <div class="secured-content" id="securedContent">
+            <h2>Secured Page</h2>
+            <p>Welcome to the secured page!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
